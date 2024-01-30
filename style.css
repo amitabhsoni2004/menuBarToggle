@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: black; */
+    /* color: white; */
+}
+.menu-bar{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    /* margin: 50px; */
+}
+
+.content{
+    width: 20%;
+    /* background-color: red; */
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;   
+}
+.content h3{
+    padding: 40px;
+    cursor: pointer;
+}
+.content h3:hover{
+    color: rgb(98, 97, 97);
+    text-decoration: underline;
+}
